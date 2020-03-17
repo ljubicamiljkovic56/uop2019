@@ -1,0 +1,2 @@
+Mirko|Kostic|1005983756013|1|Nikole Pasica 70|0987654|miki23|miki234|2|70000|1|Spec2
+Mile|Milic|12345678|1|Nikole Pasica 9|123456789|mile|mile|2|70000|2|Spec2

@@ -1,0 +1,3 @@
+Anita|Ivic|1009988756012|2|Pere Radovanovica 12|1234567|anita12|anka12|3|40000|1
+Jovana|Jovanovic|78678954|2|Nikole Pasica 22|5678900|joka|joka|3|45000|2
+Marko|Mitic|236374|1|Branka Radicevica 9|897997|mare|mare|3|45000|3
