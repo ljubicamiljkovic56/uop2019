@@ -22,15 +22,18 @@ import pacijentPaket.Pacijent;
 import pregledPaket.Pregled;
 import zaposleniPaket.Lekar;
 
+@SuppressWarnings("serial")
 public class PregledProzor extends JFrame {
 	private JToolBar mainToolbar = new JToolBar();
 	private JButton btnAdd = new JButton();
 	private JButton btnEdit = new JButton();
 	private JButton btnDelete = new JButton();
+	@SuppressWarnings("unused")
 	private DefaultTableModel tableModel;
 	private JTable pregledTabela;
 	private Liste liste;
 	private Pregled pregled;
+	@SuppressWarnings("unused")
 	private Pacijent pacijent;
 	
 	public PregledProzor(Pregled pregled,Pacijent pacijent, Liste liste) {
@@ -77,6 +80,7 @@ public class PregledProzor extends JFrame {
 		JScrollPane scrollPane = new JScrollPane(pregledTabela);
 		add(scrollPane);
 	}
+	@SuppressWarnings("unused")
 	private void snimiPregledIzTabele() {
 		DefaultTableModel model = (DefaultTableModel) pregledTabela.getModel();
 		for(int i = 0; i<pregledTabela.getRowCount(); i++) {

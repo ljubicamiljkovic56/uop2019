@@ -18,6 +18,7 @@ import krajnjiPaket.Liste;
 import net.miginfocom.swing.MigLayout;
 import pacijentPaket.Pacijent;
 
+@SuppressWarnings("serial")
 public class PacijentForma extends JFrame {
 	private JLabel lblIme = new JLabel("Ime");
 	private JTextField txtIme = new JTextField(20);

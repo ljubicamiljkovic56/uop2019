@@ -21,12 +21,13 @@ import krajnjiPaket.Liste;
 import pacijentPaket.Pacijent;
 
 
+@SuppressWarnings("serial")
 public class KnjizicaProzor extends JFrame {
 	private JToolBar mainToolbar = new JToolBar();
 	private JButton btnAdd = new JButton();
 	private JButton btnEdit = new JButton();
 	private JButton btnDelete = new JButton();
-	private DefaultTableModel tableModel;
+	//private DefaultTableModel tableModel;
 	private JTable knjizicaTabela;
 	private Liste liste;
 	private Knjizica knjizica;
@@ -73,6 +74,7 @@ public class KnjizicaProzor extends JFrame {
 		JScrollPane scrollPane = new JScrollPane(knjizicaTabela);
 		add(scrollPane);
 	}
+	@SuppressWarnings("unused")
 	private void snimiKnjizicuIzTabele() {
 		DefaultTableModel model = (DefaultTableModel) knjizicaTabela.getModel();
 		for(int i = 0; i<knjizicaTabela.getRowCount(); i++) {
@@ -111,6 +113,7 @@ public class KnjizicaProzor extends JFrame {
 					DefaultTableModel model = (DefaultTableModel) knjizicaTabela.getModel();
 					String korisnickoIme = model.getValueAt(red, 0).toString();
 					String brojKnjizice = model.getValueAt(red, 1).toString();
+					@SuppressWarnings("unused")
 					Pacijent pacijent = liste.nadjiPacijenta(korisnickoIme);
 					Knjizica knjizica = liste.nadjiKnjizicu(brojKnjizice);
 					if(knjizica != null) {
@@ -138,6 +141,7 @@ public class KnjizicaProzor extends JFrame {
 					DefaultTableModel model = (DefaultTableModel) knjizicaTabela.getModel();
 					String korisnickoIme = model.getValueAt(red, 0).toString();
 					String brojKnjizice = model.getValueAt(red, 1).toString();
+					@SuppressWarnings("unused")
 					Pacijent pacijent = liste.nadjiPacijenta(korisnickoIme);
 					Knjizica knjizica = liste.nadjiKnjizicu(brojKnjizice);
 					if(knjizica != null) {

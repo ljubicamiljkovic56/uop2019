@@ -10,17 +10,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-import guiPrikaz.LekarProzor;
-import guiPrikaz.MSestraProzor;
-import guiPrikaz.PacijentProzor;
 import knjizicaPaket.Knjizica;
 import krajnjiPaket.Liste;
 import net.miginfocom.swing.MigLayout;
 import osnovniPaket.Osoba;
-import pacijentPaket.Pacijent;
-import zaposleniPaket.Lekar;
-import zaposleniPaket.MedicinskaSestra;
 
+@SuppressWarnings("serial")
 public class Login extends JFrame {
 	private JLabel lblPoruka;
 	private JLabel lblKorisnickoIme;
@@ -29,6 +24,7 @@ public class Login extends JFrame {
 	private JPasswordField pfLozinka;
 	private JButton btnOK;
 	private JButton btnCancel;
+	@SuppressWarnings("unused")
 	private Knjizica knjizica;
 	private Liste liste;
 	

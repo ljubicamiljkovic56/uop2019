@@ -16,6 +16,7 @@ import krajnjiPaket.Liste;
 import net.miginfocom.swing.MigLayout;
 import pacijentPaket.Pacijent;
 
+@SuppressWarnings("serial")
 public class KnjizicaForma extends JFrame {
 	private JLabel lblPacijent = new JLabel("Pacijent");
 	private JComboBox<String> cbPacijent = new JComboBox<String>();

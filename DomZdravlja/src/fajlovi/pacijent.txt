@@ -1,3 +1,3 @@
-Kikic|Rikic|67585849|1|Gogoljeva 4|4567899999|kiki|kiki|1|Dr. Mirko Kostic|null
-Zika|Zikic|4567890|1|Zikina|4567890|zika|zika|1|Dr. Mirko Kostic|null
-Pera|Peric|8989889|1|Perina|5678990|pera14|pera14|1|Dr. Mirko Kostic|null
+Kikic|Rikic|080975756013|1|Gogoljeva 4, Novi Sad|4567899999|kiki|kiki12|1|Mile Mitic|0123
+Zika|Zikic|090870756013|1|Ivana Gundulica 10, Novi Sad|4567890|zika|zika13|1|Stanoje Markovic|0223
+Pera|Peric|101071756013|1|Pere Radovanovica 18, Novi Sad|5678990|pera14|pera14|1|Petar Petrovic|0323

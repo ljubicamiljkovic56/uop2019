@@ -18,6 +18,7 @@ import krajnjiPaket.Liste;
 import net.miginfocom.swing.MigLayout;
 import zaposleniPaket.MedicinskaSestra;
 
+@SuppressWarnings("serial")
 public class SestraForma extends JFrame {
 	private JLabel lblIme = new JLabel("Ime");
 	private JTextField txtIme = new JTextField(20);

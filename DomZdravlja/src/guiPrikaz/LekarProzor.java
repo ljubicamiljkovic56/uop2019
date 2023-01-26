@@ -21,11 +21,13 @@ import guiIzmeniBrisi.LekarForma;
 import krajnjiPaket.Liste;
 import zaposleniPaket.Lekar;
 
+@SuppressWarnings("serial")
 public class LekarProzor extends JFrame {
 	private JToolBar mainToolbar = new JToolBar();
 	private JButton btnAdd = new JButton();
 	private JButton btnEdit = new JButton();
 	private JButton btnDelete = new JButton();
+	@SuppressWarnings("unused")
 	private DefaultTableModel tableModel;
 	private JTable lekarTabela;
 	private Lekar lekar;
@@ -80,6 +82,7 @@ public class LekarProzor extends JFrame {
 		JScrollPane scrollPane = new JScrollPane(lekarTabela);
 		add(scrollPane);
 	}
+	@SuppressWarnings("unused")
 	private void snimiLekaraIzTabele() {
 		DefaultTableModel model = (DefaultTableModel) lekarTabela.getModel();
 		for(int i=0; i<lekarTabela.getRowCount(); i++) {

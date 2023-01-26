@@ -21,6 +21,7 @@ import zaposleniPaket.Lekar;
 import zaposleniPaket.MedicinskaSestra;
 
 
+@SuppressWarnings("serial")
 public class GlavniProzor extends JFrame {
 	private JMenuBar mainMenu;
 	private JMenu preglediMenu;

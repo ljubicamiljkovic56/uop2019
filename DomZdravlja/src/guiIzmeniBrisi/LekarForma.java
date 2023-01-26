@@ -18,6 +18,7 @@ import krajnjiPaket.Liste;
 import net.miginfocom.swing.MigLayout;
 import zaposleniPaket.Lekar;
 
+@SuppressWarnings("serial")
 public class LekarForma extends JFrame {
 	private JLabel lblIme = new JLabel("Ime");
 	private JTextField txtIme = new JTextField(20);
@@ -241,7 +242,7 @@ public class LekarForma extends JFrame {
 			ok = false;
 		}
 		if(ok == false) {
-			JOptionPane.showMessageDialog(null, "poruka", "Neispravni podaci", JOptionPane.WARNING_MESSAGE);
+			JOptionPane.showMessageDialog(null, poruka, "Neispravni podaci", JOptionPane.WARNING_MESSAGE);
 		}
 		return ok;
 	}

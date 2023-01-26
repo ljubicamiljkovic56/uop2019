@@ -21,11 +21,13 @@ import knjizicaPaket.Knjizica;
 import krajnjiPaket.Liste;
 import pacijentPaket.Pacijent;
 
+@SuppressWarnings("serial")
 public class PacijentProzor extends JFrame {
 	private JToolBar mainToolbar = new JToolBar();
 	private JButton btnAdd = new JButton();
 	private JButton btnEdit = new JButton();
 	private JButton btnDelete = new JButton();
+	@SuppressWarnings("unused")
 	private DefaultTableModel tableModel;
 	private JTable pacijentTabela;
 	private Pacijent pacijent;
@@ -80,6 +82,7 @@ public class PacijentProzor extends JFrame {
 		JScrollPane scrollPane = new JScrollPane(pacijentTabela);
 		add(scrollPane);
 	}
+	@SuppressWarnings("unused")
 	private void snimiPacijenteIzTabele() {
 		DefaultTableModel model = (DefaultTableModel) pacijentTabela.getModel();
 		for(int i = 0; i<pacijentTabela.getRowCount(); i++) {

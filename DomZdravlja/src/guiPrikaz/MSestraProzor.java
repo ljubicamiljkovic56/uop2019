@@ -21,6 +21,7 @@ import guiIzmeniBrisi.SestraForma;
 import krajnjiPaket.Liste;
 import zaposleniPaket.MedicinskaSestra;
 
+@SuppressWarnings("serial")
 public class MSestraProzor extends JFrame {
 	private JToolBar mainToolbar = new JToolBar();
 	private JButton btnAdd = new JButton();
@@ -79,6 +80,7 @@ public class MSestraProzor extends JFrame {
 		JScrollPane scrollPane = new JScrollPane(sestraTabela);
 		add(scrollPane);
 	}
+	@SuppressWarnings("unused")
 	private void snimiSestruIzTabele() {
 		DefaultTableModel model = (DefaultTableModel) sestraTabela.getModel();
 		for(int i = 0; i<sestraTabela.getRowCount(); i++) {

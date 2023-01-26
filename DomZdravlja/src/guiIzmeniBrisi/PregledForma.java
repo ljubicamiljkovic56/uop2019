@@ -20,6 +20,7 @@ import pregledPaket.Pregled;
 import zaposleniPaket.Lekar;
 
 
+@SuppressWarnings("serial")
 public class PregledForma extends JFrame {
 	private JLabel lblPacijent = new JLabel("Pacijent");
 	private JComboBox<String> cbPacijent = new JComboBox<String>();
